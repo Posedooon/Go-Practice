@@ -13,7 +13,7 @@ func main() {
 func updateName(name string) {
     name = "David"
 }
-	ªnot change the name "David"
+	does not change the name "David"
 	local variable is "David",
 	but not change the name "John"
 */
@@ -22,5 +22,5 @@ func updateName(name *string) {
 	*name = "David"
 }
 
-/*ªchange the name "David"
+/*change the name "David"
 because the pointer is "John"*/
