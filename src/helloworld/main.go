@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/myuser/calc"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	total := calc.Sum(3, 5)
+	fmt.Println("Total:", total)
+	fmt.Println("Version:", calc.Version)
 }
